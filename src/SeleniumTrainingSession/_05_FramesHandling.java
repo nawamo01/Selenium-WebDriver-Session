@@ -21,7 +21,7 @@ public class _05_FramesHandling {
 		driver.manage().timeouts().pageLoadTimeout(40, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
 		
-		driver.findElement(By.name("email")).sendKeys("nazmd8010@gmail.com");
+		driver.findElement(By.name("email")).sendKeys("abc@gmail.com");
 		driver.findElement(By.name("password")).sendKeys("Freecrm@2020");
 		
 		//Dynamic Xpath created by own
