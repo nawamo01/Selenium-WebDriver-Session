@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="tests" allow-return-values="true"
+    verbose="10">
+    <test name="Amazon">
+  
+	<parameter name = "name" value ="Arshi"/> 
+	<parameter name = "mobile" value = "8888888888" />
+	<parameter name = "email" value ="test@gmail.com"/>
+	<parameter name = "password" value = "test123"/>
+	
+	
+        <classes>
+            <class name="TestNGConcept._10_ParametersConcept" />
+            
+        </classes>
+    </test>
+</suite>
